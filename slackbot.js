@@ -28,15 +28,16 @@ controller.spawn({
         bot.api.chat.update(slack_message, function (err, res) {
             if (err) {
                 cb && cb(err);
-            } else {
+            } 
+            else {
                 cb && cb(null, res);
             }
         });
-    }
+    };
 
     if (err) {
         throw new Error(err);
     }
 });
 
-module.exports = controller
+module.exports = controller;

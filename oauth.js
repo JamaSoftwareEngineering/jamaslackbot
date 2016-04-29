@@ -16,18 +16,20 @@ module.exports = {
         var consumerKey = process.env.JAMA_CONSUMER_KEY;
         var consumerSecret = process.env.JAMA_CONSUMER_SECRET;
 
-        var oauth2 = new OAuth2(consumerKey,
+        var oauth2 = new OAuth2(
+            consumerKey,
             consumerSecret,
             'https://' + consumerKey + ':' + consumerSecret + '@' + oauthUrl,
             null,
             'oauth/token',
             null);
+
         oauth2.getOAuthAccessToken(
-            '',
-            {'grant_type': 'client_credentials'},
+            '', 
+            { 'grant_type': 'client_credentials' },
             function (e, access_token, refresh_token, results) {
                 onToken(access_token);
-            })
+            });
 
     }
 };
