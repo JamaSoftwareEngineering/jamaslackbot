@@ -1,0 +1,19 @@
+{
+  "name": "jamaslackbot",
+  "version": "1.0.0",
+  "description": "A bot for Slack that talks to Jama",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "0.0.11",
+    "oauth": "https://github.com/JamaSoftwareEngineering/node-oauth/tarball/master",
+    "bluebird": "^3.3.4",
+    "cleverbot.io": "^1.0.4",
+    "lodash": "^4.6.1",
+    "promise": "^7.1.1"
+  }
+}
