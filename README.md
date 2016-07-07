@@ -15,8 +15,9 @@
 
 # Usage
 
+* Source your environment variables as noted in Installation guide above (e.g. source /git/jamaslackbot/env.sh)
 * Run `node index.js` in your App folders (e.g. node.js /git/jamaslackbot/index.js)
-** To keep a process running constantly in case of failure, please install forever (https://www.npmjs.com/package/forever) to ensure that the node process runs continuously
+* To keep a process running constantly in case of failure, please install forever (https://www.npmjs.com/package/forever) to ensure that the node process runs continuously
 * Invite the Slack bot into your channel(s).
 * Any reference to a Jama document key will retrieve the link, name and description if the configured user has permission to view it.
 
