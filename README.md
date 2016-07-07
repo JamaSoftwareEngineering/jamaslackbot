@@ -15,7 +15,7 @@
 
 # Usage
 
-* Run 'source env.sh' to use your environment variables as noted in Installation guide above (e.g. source /git/jamaslackbot/env.sh)
+* Run `source env.sh` to use your environment variables as noted in Installation guide above (e.g. source /git/jamaslackbot/env.sh)
 * Run `node index.js` in your App folders (e.g. node.js /git/jamaslackbot/index.js)
 * To keep a process running constantly in case of failure, please install forever (https://www.npmjs.com/package/forever) to ensure that the node process runs continuously
 * Invite the Slack bot into your channel(s).
